@@ -9,11 +9,6 @@
 
 This repository contains the implementation of a data-driven Model Predictive Control (MPC) framework based on behavioral systems theory. The project reproduces the schemes proposed by Berberich et al., enabling the control of multivariable systems directly from measured input-output trajectories without an explicit parametric model.
 
-## Features
-* [cite_start]**Behavioral Modeling**: Construction of data-driven predictors using Hankel matrices[cite: 33, 61].
-* [cite_start]**Nominal & Robust MPC**: Support for noise-free scenarios and robust formulations for bounded measurement noise[cite: 71, 72].
-* [cite_start]**Benchmark Validation**: Performance evaluated on a discrete-time linearized four-tank process[cite: 88, 89].
-* [cite_start]**Optimization**: Symbolic modeling using CasADi with OSQP and IPOPT solver integration[cite: 193, 194].
 
 ## Installation
 
