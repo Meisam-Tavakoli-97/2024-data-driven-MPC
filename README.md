@@ -7,7 +7,7 @@
 
 # Data-Driven Model Predictive Control with Stability and Robustness Guarantees
 
-[cite_start]This repository contains the implementation of a data-driven Model Predictive Control (MPC) framework based on behavioral systems theory[cite: 18, 19]. [cite_start]The project reproduces the schemes proposed by Berberich et al., enabling the control of multivariable systems directly from measured input-output trajectories without an explicit parametric model[cite: 20, 31].
+This repository contains the implementation of a data-driven Model Predictive Control (MPC) framework based on behavioral systems theory. The project reproduces the schemes proposed by Berberich et al., enabling the control of multivariable systems directly from measured input-output trajectories without an explicit parametric model.
 
 ## Features
 * [cite_start]**Behavioral Modeling**: Construction of data-driven predictors using Hankel matrices[cite: 33, 61].
