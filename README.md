@@ -7,29 +7,31 @@
 
 # Data-Driven Model Predictive Control with Stability and Robustness Guarantees
 
-This repository contains the implementation of a data-driven Model Predictive Control (MPC) framework based on behavioral systems theory. The project reproduces the schemes proposed by Berberich et al., enabling the control of multivariable systems directly from measured input-output trajectories without an explicit parametric model.
+This repository contains the implementation of a data-driven Model Predictive Control (MPC) framework based on behavioral systems theory. The project reproduces the schemes [1], enabling the control of multivariable systems directly from measured input-output trajectories without an explicit parametric model.
 
+[1] J. Berberich, J. Köhler, M. A. Müller, and F. Allgöwer, **"Data-Driven Model Predictive Control with Stability and Robustness Guarantees,"** *IEEE Transactions on Automatic Control*, vol. 66, no. 4, pp. 1702-1717, 2021. [doi:10.1109/TAC.2020.3000182](https://doi.org/10.1109/TAC.2020.3000182)
 
 ## Installation
 
-[cite_start]The code is developed in **Python**[cite: 83]. Install the required numerical and optimization libraries via:
+The code is developed in **Python**. Install the required numerical and optimization libraries via:
 
 ```bash
 pip install numpy scipy matplotlib casadi
 ```
+
 ## Repository Structure
 
-    - `Main.py: The entry point for running closed-loop simulations.
+- Main.py: The entry point for running closed-loop simulations.
 
-    - `Data_Driven_MPC.py: Implementation of the nominal and robust MPC optimization problems.
+- Data_Driven_MPC.py: Implementation of the nominal and robust MPC optimization problems.
 
-    - `Hankel_matrix.py: Routines for constructing block Hankel matrices from historical data.
+- Hankel_matrix.py: Routines for constructing block Hankel matrices from historical data.
 
-    - `four_tanks.py: The benchmark four-tank system model and discretization logic.
+- four_tanks.py: The benchmark four-tank system model and discretization logic.
 
-    - `History_Data.py: Data collection using PRBS signals for persistent excitation.
+- History_Data.py: Data collection using PRBS signals for persistent excitation.
 
-    - `system_id.py: Utilities for data-driven system representation and rank condition validation.
+- system_id.py: Utilities for data-driven system representation and rank condition validation.
 
 ## Running Experiments
 
