@@ -16,10 +16,8 @@ This repository contains the implementation of a data-driven Model Predictive Co
 
 ```bash
 pip install numpy scipy matplotlib casadi
-
-Repository Structure
-
-## The core components of the implementation include:
+```
+## Repository Structure
 
     - `Main.py: The entry point for running closed-loop simulations.
 
